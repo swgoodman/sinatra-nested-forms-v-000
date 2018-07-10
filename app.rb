@@ -4,7 +4,7 @@ module FormsLab
   class App < Sinatra::Base
 
     get '/' do
-      
+      "Welcome to the Nexted Forms Lab!"
     end
 
     get '/new' do
