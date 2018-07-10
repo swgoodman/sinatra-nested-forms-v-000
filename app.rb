@@ -8,8 +8,7 @@ module FormsLab
     end
 
     get '/new' do
-      erb :new
-      status 200
+      
     end
 
     post '/pirates' do
