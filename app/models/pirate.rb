@@ -4,9 +4,9 @@ class Pirate
   @@pirates = []
 
   def initialize(name, weight, height)
-    @name = name
-    @weight = weight
-    @height = height
+    @name = params[:name]
+    @weight = params[:weight]
+    @height = params[:height]
   end
 
   def self.all
